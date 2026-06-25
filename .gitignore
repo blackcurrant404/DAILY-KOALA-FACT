@@ -3,22 +3,17 @@
 
 # Virtualenv
 venv/
+.venv
 
-# Dist ja exe-tiedostot
+# Dist and exe-files
 build/
 dist/
 *.exe
 
 
-# Python välimuistit
+# Python cache
 __pycache__/
 
 
-# Päivittäinen quote-tiedosto
+# My daily quote
 daily_quote.txt
-
-
-# Turhat kuvat / projektiversiot
-kommentoitu versio/
-vaihtoehtoiset suomi quotet/
-vanha versio/
