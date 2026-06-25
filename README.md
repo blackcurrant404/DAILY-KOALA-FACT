@@ -14,3 +14,4 @@ Requirements
 - Python 3
 - pygame
 - Pillow (Python Imaging Library)
+- Tkinter
