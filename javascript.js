@@ -22,6 +22,7 @@ const button = document.getElementById("koalaButton");
 const quote = document.getElementById("quote");
 
 button.addEventListener("click", () => {
+    quote.style.opacity = "1";
     quote.textContent = todayQuote;
 });
 

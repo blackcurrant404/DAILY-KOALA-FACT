@@ -67,11 +67,15 @@ button:active {
 }
 
 #quote {
+    opacity: 0;
+    transition: opacity 2s ease;
     padding: 8px;
-    min-height: 1em;
+    min-height: 3em;
 
-    background-color: black;
+    background: linear-gradient(135deg, #0a0a0a, #1f1f1f);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 
+    text-align: center;
     color:azure;
     font-family: sans-serif;
 }
