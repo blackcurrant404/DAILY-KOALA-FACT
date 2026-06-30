@@ -16,4 +16,8 @@ __pycache__/
 
 
 # My daily quote
+<<<<<<< HEAD
 daily_quote.txt
+=======
+daily_quote.txt
+>>>>>>> 0b318ede80b7b4d4f55f44416fd410d88c321560
