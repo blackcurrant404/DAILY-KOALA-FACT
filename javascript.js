@@ -1,5 +1,7 @@
 let quotes = [];
-let todayQuote;
+let todayQuote; 
+
+const startDate = new Date("2026-06-30");
 
 fetch("quotes.json")
     .then(res => res.json())
@@ -7,11 +9,11 @@ fetch("quotes.json")
         quotes = data;
 
         const today = new Date();
-        const start = new Date(today.getFullYear(), 0, 0);
-        const diff = today - start;
+        const diff = today - startDate;
         const oneDay = 1000 * 60 * 60 * 24;
-        const dayOfYear = Math.floor(diff / oneDay);
-        const quoteIndex = dayOfYear % quotes.length;
+        const dayIndex = Math.floor(diff / oneDay);
+
+        const quoteIndex = dayIndex % quotes.length;
 
         todayQuote = quotes[quoteIndex];
     });
